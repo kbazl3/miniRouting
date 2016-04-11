@@ -1,0 +1,14 @@
+<h1> Footwear </h1>
+<div> We're going to use this div to loop over our data later on</div>
+
+<div class="card" ng-repeat="product in productData">
+    <ul>
+        <li>Type: {{product.type}}</li>
+        <li>Color: {{product.color}}</li>
+        <li>Size: {{product.size}}</li>
+    </ul>
+    <div class="img">
+        <img src={{product.img}} alt="" />
+    </div>
+
+</div>
